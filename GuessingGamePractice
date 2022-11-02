@@ -14,7 +14,7 @@ while True:
     else:        
         guess = int(guess)
         attempts = attempts + 1
-        #If user inputs a number grater than 50 or less than 0:
+        #If user inputs a number greater than 50 or less than 0:
         if guess >50 or guess<=0:
             attempts = attempts - 1
             print("Guess must be between 1 and 50!")
